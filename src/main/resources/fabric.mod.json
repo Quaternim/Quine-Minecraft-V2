@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "quine",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Quine V2",
+  "description": "A Minecraft Utility Client.",
   "authors": [
-    "Me!"
+    "Quaternim"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/https://github.com/Quaternim/Quine-Minecraft-V2"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/quine/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "quineClient.Client"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "quineClient.mixins.json"
   ],
 
   "depends": {
