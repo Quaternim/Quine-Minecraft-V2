@@ -3,6 +3,8 @@ package quineClient.modules;
 import java.util.ArrayList;
 import java.util.List;
 
+import quineClient.modules.movement.Flight;
+
 public class ModuleManager {
 	
 	public static final ModuleManager INSTANCE = new ModuleManager();
@@ -25,7 +27,7 @@ public class ModuleManager {
 	}
 	
 	private void addModules() {
-		
+		modules.add(new Flight());
 	}
 	
 	

@@ -1,5 +1,7 @@
 package quineClient.modules;
 
+import net.minecraft.client.MinecraftClient;
+
 public class Mod {
 
 	private String name;
@@ -7,6 +9,8 @@ public class Mod {
 	public Category category;
 	private int key;
 	private boolean enabled;
+	
+	protected MinecraftClient mc = MinecraftClient.getInstance();
 	
 	
 	public Mod(String name, String description, Category category) {
